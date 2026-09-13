@@ -1,0 +1,5 @@
+vim.pack.add({
+  { src = 'https://github.com/nvim-mini/mini.nvim', version = 'stable' },
+})
+
+require('mini.basics').setup({})
